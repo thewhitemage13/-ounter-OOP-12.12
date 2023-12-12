@@ -3,7 +3,6 @@
 using namespace std;
 
 class Counter {
-
     unsigned int time = 0;//Изначальное значение счетчика
     unsigned int min_time = 0;//Минимальное значение
     unsigned int max_time = 99999;//Максимальное значение
@@ -56,7 +55,6 @@ public:
     {
         while (GetTime() <= GetMax())//цикл
         {
-           
             if (GetTime() == GetMax())//если текущее значение равно максимальному значению
             {
                 ToTime(GetMin());//то мы присваем текущему значению счетчика минимальное значение
