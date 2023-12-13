@@ -3,7 +3,6 @@
 using namespace std;
 
 class Counter {
-
     unsigned int time = 0;//Изначальное значение счетчика
     unsigned int min_time = 0;//Минимальное значение
     unsigned int max_time = 99999;//Максимальное значение
